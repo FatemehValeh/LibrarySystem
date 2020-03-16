@@ -1,5 +1,11 @@
 package com.company;
 
+/**
+ * Book class represents a book in a library system
+ * It holds the title and author of a book
+ *
+ * @author Fatemh Valeh
+ */
 public class Book {
     private String title;
     private String author;
@@ -46,7 +52,7 @@ public class Book {
      * a method to print information about a book
      */
     public void print(){
-        System.out.println("Title: " + title + " | Author: " + author);
+        System.out.print("Title: " + title + " | Author: " + author);
     }
 
 }

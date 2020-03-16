@@ -3,6 +3,13 @@ package com.company;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+/**
+ * Borrow class represents a borrow in a library system
+ * It holds a user, a book, a dead line date and current date as issued date
+ *
+ * @author Fatemeh Valeh
+ */
+
 public class Borrow {
     private User borrower;
     private Book book;
@@ -25,7 +32,7 @@ public class Borrow {
             if (issuedDate.before(deadlineDate)) {
                 this.deadlineDate = deadlineDate;
             } else
-                System.out.println("Invalid deadlineDate. Default 2020/12/31 deadlineDate will be determined");
+                System.out.println("Invalid deadlineDate. Default 2020/12/31  0 deadlineDate will be determined");
         }
     }
 
@@ -89,10 +96,13 @@ public class Borrow {
         return deadlineDate;
     }
 
-
+    /**
+     * a method that prints a borrow information
+     */
     public void print(){
         System.out.print("Borrower => ");
         borrower.print();
+        System.out.println();
         System.out.print("Book => " );
         book.print();
         System.out.println("IssuedDate => " + ft.format(issuedDate));

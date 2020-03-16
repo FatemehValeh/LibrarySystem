@@ -2,6 +2,13 @@ package com.company;
 
 import java.util.Arrays;
 
+/**
+ * The User class represents a user in a library system
+ * It holds first name, last name and id number of a user
+ *
+ * @author Fatemeh Valeh
+ */
+
 public class User {
     private String firstName;
     private String lastName;
@@ -89,7 +96,7 @@ public class User {
      * a method to print information of a user
      */
     public void print(){
-        System.out.println("Full Name: " + firstName + " " + lastName + " | ID: " + idNum);
+        System.out.print("Full Name: " + firstName + " " + lastName + " | ID: " + idNum);
         //Arrays.stream(idNum).forEach(System.out::print);
     }
 }
