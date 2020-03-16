@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Date;
 
 /**
- * TestLibrarySystem is a class that test all methods of the system
+ * TestLibrarySystem is a class that test all methods of the system.
  *
  * @author Fatemeh Valeh
  */

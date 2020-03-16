@@ -4,8 +4,8 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Borrow class represents a borrow in a library system
- * It holds a user, a book, a dead line date and current date as issued date
+ * Borrow class represents a borrow in a library system.
+ * It holds a user, a book, a dead line date and current date as issued date.
  *
  * @author Fatemeh Valeh
  */

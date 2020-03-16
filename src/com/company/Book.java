@@ -1,8 +1,8 @@
 package com.company;
 
 /**
- * Book class represents a book in a library system
- * It holds the title and author of a book
+ * Book class represents a book in a library system.
+ * It holds the title and author of a book.
  *
  * @author Fatemh Valeh
  */

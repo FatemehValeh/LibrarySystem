@@ -3,8 +3,8 @@ package com.company;
 import java.util.Arrays;
 
 /**
- * The User class represents a user in a library system
- * It holds first name, last name and id number of a user
+ * The User class represents a user in a library system.
+ * It holds first name, last name and id number of a user.
  *
  * @author Fatemeh Valeh
  */

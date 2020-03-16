@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 
 /**
- * Library System class represents a class to manage a library
+ * Library System class represents a class to manage a library.
  *
  * @author Fatemeh Valeh
  */

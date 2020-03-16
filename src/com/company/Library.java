@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * The Library class represents a library in a library system
- * It holds books and users in the library and list of borrows
+ * The Library class represents a library in a library system.
+ * It holds books and users in the library and list of borrows.
  *
  * @author Fatemeh Valeh
  */
